@@ -1,5 +1,6 @@
 
-The premise of th application is based on the user story:
+
+The premise of the application is based on the user story:
 
 AS A traveler
 I WANT to see the weather outlook for multiple cities
