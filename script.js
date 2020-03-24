@@ -69,7 +69,7 @@ $(document).ready(function() {
 
     function getUVIndex(lat, lon) {
         var apiKey = "cf23598f343f68197b177db7d009e1c0";
-        var queryUrl = "http://api.openweathermap.org/data/2.5/uvi?appid=" + apiKey + "&lat=" + lat + "&lon=" + lon;
+        var queryUrl = "https://api.openweathermap.org/data/2.5/uvi?appid=" + apiKey + "&lat=" + lat + "&lon=" + lon;
         $.ajax({
             method: "GET",
             url: queryUrl
@@ -97,7 +97,7 @@ $(document).ready(function() {
 
     function getForecast(searchValue) {
         var apiKey = "cf23598f343f68197b177db7d009e1c0";
-        var queryUrl = "http://api.openweathermap.org/data/2.5/forecast?q=" + searchValue + "&appid=" + apiKey;
+        var queryUrl = "https://api.openweathermap.org/data/2.5/forecast?q=" + searchValue + "&appid=" + apiKey;
 
         $.ajax({
             method: "GET",
